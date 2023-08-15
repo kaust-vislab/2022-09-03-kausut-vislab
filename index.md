@@ -182,9 +182,9 @@ Modify the block below if there are any special requirements.
     The University provides severeal resources for the participants to use during the workshop but you have to request the service the first time you use it <a href="https://waseet.kaust.edu.sa/idp/profile/SAML2/Redirect/SSO?execution=e1s1">here</a> :
     <!-- create a list of three items  -->
     <table class="table table-striped">
-      <tr> <td>Jupyter hub       </td> <td> <a href="https://jupyter.kaust.edu.sa/hub/login"> </a> </td> </tr>
-      <tr> <td>Virtual machines  </td> <td> <a href="https://myws.kaust.edu.sa/" > </a> </td> </tr>
-      <tr> <td>Binder repo       </td> <td> <a href="https://github.com/kaust-vislab/kvl-binder-serv"> </a>    </td> </tr>
+      <tr> <td> <a href="https://jupyter.kaust.edu.sa/hub/login"> Jupyter hub </a> </td> </tr>
+      <tr> <td> <a href="https://myws.kaust.edu.sa/" > Virtual machines </a> </td> </tr>
+      <tr> <td> <a href="https://github.com/kaust-vislab/kvl-binder-serv"> Binder </a> </td> </tr>
     </table>
     <strong>For remote students:</strong>
     Participants must have access to a computer with a
