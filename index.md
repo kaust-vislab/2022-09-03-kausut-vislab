@@ -105,7 +105,7 @@ This is a pilot workshop, testing out a lesson that is still under development. 
 {% comment %}
 AUDIENCE
 
-Explain who your audience is.  (In particular, tell readers if the
+Explain who your audience is.  In particular, tell readers if the
 workshop is only open to people from a particular institution.
 {% endcomment %}
 {% if site.carpentry == "swc" %}
@@ -179,17 +179,17 @@ Modify the block below if there are any special requirements.
     Participants must bring a laptop with a
     Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on.
     <strong>For KAUSTians :</strong>
-    The University provides severeal resources for the participants to use during the workshop but you have to request the service the first time you use it <a> href="https://waseet.kaust.edu.sa/idp/profile/SAML2/Redirect/SSO?execution=e1s1" >here</a> :
+    The University provides severeal resources for the participants to use during the workshop but you have to request the service the first time you use it <a href="https://waseet.kaust.edu.sa/idp/profile/SAML2/Redirect/SSO?execution=e1s1">here</a> :
     <!-- create a list of three items  -->
     <table class="table table-striped">
-      <tr> <td>Jupyter hub</td>  <td>https://jupyter.kaust.edu.sa/hub/login</td> </tr>
-      <tr> <td>Virtual machines</td>  <td>https://myws.kaust.edu.sa/ </td> </tr>
-      <tr> <td>Binder repo</td>  <td>https://github.com/kaust-vislab/kvl-binder-serv</td> </tr>
+      <tr> <td>Jupyter hub       </td> <td> <a href="https://jupyter.kaust.edu.sa/hub/login"> </a> </td> </tr>
+      <tr> <td>Virtual machines  </td> <td> <a href="https://myws.kaust.edu.sa/" > </a> </td> </tr>
+      <tr> <td>Binder repo       </td> <td> <a href="https://github.com/kaust-vislab/kvl-binder-serv"> </a>    </td> </tr>
     </table>
     <strong>For remote students:</strong>
     Participants must have access to a computer with a
     Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on.
-    as well as a stable internet connection. Optionally, they can use the following resource https://github.com/kaust-vislab/kvl-binder-serv to run the code in the cloud.
+    as well as a stable internet connection. Optionally, they can use the following resource  <a href="https://mybinder.readthedocs.io/en/latest/">Binder</a> to run the code in the cloud.
 
 
   {% else %}
