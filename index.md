@@ -16,7 +16,7 @@ enddate: 2023-09-03        # machine-readable end date for the workshop in YYYY-
 instructor: ["Dr. Didier Barradas-Bautista", "TBD"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 # helper: ["helper one", "helper two"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["help@vis.kaust.edu.sa","didier.barradasbautista@kaust.edu.sa"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
-collaborative_notes:  # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
+collaborative_notes:  https://pad.carpentries.org/2023-09-03-kaust-vislab # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
 
@@ -178,6 +178,20 @@ Modify the block below if there are any special requirements.
   {% if online == "false" %}
     Participants must bring a laptop with a
     Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on.
+    <strong>For KAUSTians :</strong>
+    The University provides severeal resources for the participants to use during the workshop but you have to request the service the first time you use it <a> href="https://waseet.kaust.edu.sa/idp/profile/SAML2/Redirect/SSO?execution=e1s1" >here</a> :
+    <!-- create a list of three items  -->
+    <table class="table table-striped">
+      <tr> <td>Jupyter hub</td>  <td>https://jupyter.kaust.edu.sa/hub/login</td> </tr>
+      <tr> <td>Virtual machines</td>  <td>https://myws.kaust.edu.sa/ </td> </tr>
+      <tr> <td>Binder repo</td>  <td>https://github.com/kaust-vislab/kvl-binder-serv</td> </tr>
+    </table>
+    <strong>For remote students:</strong>
+    Participants must have access to a computer with a
+    Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on.
+    as well as a stable internet connection. Optionally, they can use the following resource https://github.com/kaust-vislab/kvl-binder-serv to run the code in the cloud.
+
+
   {% else %}
     Participants must have access to a computer with a
     Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on.
