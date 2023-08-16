@@ -178,7 +178,8 @@ Modify the block below if there are any special requirements.
   {% if online == "false" %}
     Participants must bring a laptop with a
     Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on.
-    <strong>For KAUSTians :</strong>
+    
+  <strong>For KAUSTians :</strong>
     The University provides severeal resources for the participants to use during the workshop but you have to request the service the first time you use it <a href="https://waseet.kaust.edu.sa/idp/profile/SAML2/Redirect/SSO?execution=e1s1">here</a> :
     <!-- create a list of three items  -->
     <table class="table table-striped">
@@ -186,12 +187,13 @@ Modify the block below if there are any special requirements.
       <tr> <td> <a href="https://myws.kaust.edu.sa/" > Virtual machines </a> </td> </tr>
       <tr> <td> <a href="https://github.com/kaust-vislab/kvl-binder-serv"> Binder </a> </td> </tr>
     </table>
-    <strong>For remote students:</strong>
+  <strong>For remote students:</strong>
     Participants must have access to a computer with a
     Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on.
     as well as a stable internet connection. Optionally, they can use the following resource  <a href="https://mybinder.readthedocs.io/en/latest/">Binder</a> to run the code in the cloud.
-
-
+  <p>
+  <strong> Registration: </strong> Please use this link to register for the workshop <a href="https://kaustforms.formstack.com/forms/unix_shell_data_scientists_fall_2023">here</a>
+  </p>
   {% else %}
     Participants must have access to a computer with a
     Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on.
@@ -205,6 +207,7 @@ ACCESSIBILITY
 Modify the block below if there are any barriers to accessibility or
 special instructions.
 {% endcomment %}
+
 <p id="accessibility">
   <strong>Accessibility:</strong>
 {% if online == "false" %}
@@ -215,14 +218,14 @@ special instructions.
   <li>The room is wheelchair / scooter accessible.</li>
   <li>Accessible restrooms are available.</li>
 </ul>
-<p>
+<!-- <p>
   Materials will be provided in advance of the workshop and
   large-print handouts are available if needed by notifying the
   organizers in advance.  If we can help making learning easier for
   you (e.g. sign-language interpreters, lactation facilities) please
   get in touch (using contact details below) and we will
   attempt to provide them.
-</p>
+</p> -->
 {% else %}
   We are dedicated to providing a positive and accessible learning environment for all. Please
   notify the instructors in advance of the workshop if you require any accommodations or if there is
