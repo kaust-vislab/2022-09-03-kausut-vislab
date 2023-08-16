@@ -178,9 +178,10 @@ Modify the block below if there are any special requirements.
   {% if online == "false" %}
     Participants must bring a laptop with a
     Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on.
-    
+  <p>  
   <strong>For KAUSTians :</strong>
-    The University provides severeal resources for the participants to use during the workshop but you have to request the service the first time you use it <a href="https://waseet.kaust.edu.sa/idp/profile/SAML2/Redirect/SSO?execution=e1s1">here</a> :
+    The University provides several resources for the participants to use during the workshop but you have to request the service the first time you use it <a href="https://waseet.kaust.edu.sa/idp/profile/SAML2/Redirect/SSO?execution=e1s1">here</a> : 
+  </p>
     <!-- create a list of three items  -->
     <table class="table table-striped">
       <tr> <td> <a href="https://jupyter.kaust.edu.sa/hub/login"> Jupyter hub </a> </td> </tr>
