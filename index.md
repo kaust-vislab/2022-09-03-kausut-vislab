@@ -81,6 +81,17 @@ displayed if the 'eventbrite' field in the header is not set.
 </iframe>
 {% endif %}
 
+{% comment%}
+CODE OF CONDUCT
+{% endcomment %}
+<h2 id="code-of-conduct">Registration</h2>
+
+<p class="text-center">
+  <a href="https://kaustforms.formstack.com/forms/unix_shell_data_scientists_fall_2023">
+    <button type="button" class="btn btn-info">Register here</button>
+  </a>
+</p>
+<hr/>
 
 <h2 id="general">General Information</h2>
 
@@ -192,9 +203,9 @@ Modify the block below if there are any special requirements.
     Participants must have access to a computer with a
     Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on.
     as well as a stable internet connection. Optionally, they can use the following resource  <a href="https://mybinder.readthedocs.io/en/latest/">Binder</a> to run the code in the cloud.
-  <p>
+  <!-- <p>
   <strong> Registration: </strong> Please use this link to register for the workshop <a href="https://kaustforms.formstack.com/forms/unix_shell_data_scientists_fall_2023">here</a>
-  </p>
+  </p> -->
   {% else %}
     Participants must have access to a computer with a
     Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on.
